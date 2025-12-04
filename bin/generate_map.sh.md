@@ -293,6 +293,4 @@ echo "   Wall ratio: ${WALL_RATIO}%" >&2
 ```bash
 ./generate_map.sh -w 15 -h 12 -r 40 -o my_map.txt
 ```
-
-Generates a 15×12 map with 40% interior wall density, saved to `my_map.txt`.
-```
+# Generates a 15×12 map with 40% interior wall density, saved to `my_map.txt`.
