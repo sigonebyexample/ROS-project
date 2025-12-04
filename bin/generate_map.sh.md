@@ -1,4 +1,3 @@
-```markdown
 # Random Map Generator — Line-by-Line Explanation
 
 This document provides a detailed, line-by-line breakdown of the Bash script that generates a random grid-based map with walls (`1`), open space (`0`), a start (`@`), and a goal (`#`). The map always includes a guaranteed path from start to goal.
