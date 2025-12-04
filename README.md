@@ -1,5 +1,6 @@
 # A* Pathfinding in Pure Bash
 
+
 A complete implementation of the **A\* pathfinding algorithm** in **pure Bash**, with:
 - 🎲 Random map generator
 - 🖥️ GUI frontend (Zenity)
