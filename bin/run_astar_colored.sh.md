@@ -269,13 +269,11 @@ while true; do
         for (( xx=0; xx<MAP_WIDTH; xx++ )); do
             idx=$((yy * MAP_WIDTH + xx))
             char="${MAP[idx]}"
-            # بررسی closed
             if [[ -n ${CLOSED["$xx,$yy"]+x} ]]; then
                 if [[ "$char" != "@" && "$char" != "#" ]]; then
                     char="o"
                 fi
             fi
-            # بررسی گره فعلی
             if (( xx == x && yy == y )) && [[ "$char" != "@" && "$char" != "#" ]]; then
                 char="+"
             fi
